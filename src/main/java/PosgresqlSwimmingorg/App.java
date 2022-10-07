@@ -95,14 +95,14 @@ public class App{
 
                         String fname = "fname", lname = "lname";
 
-                        System.out.printf("%15s   |   %15s\n", fname, lname);
+                        System.out.printf("%15s   |   %5s\n", fname, lname);
 
                         while (result.next()) {
                             fname = String.valueOf(result.getString("fname"));
                             fname = result.getString("fname");
                             lname = result.getString("lname");
 
-                            System.out.printf("%15s   |   %15s\n", fname, lname);
+                            System.out.printf("%15s   |   %5s\n", fname, lname);
                         }
                     }
 
@@ -127,14 +127,14 @@ public class App{
 
                         String fname = "fname", lname = "lname";
 
-                        System.out.printf("%15s   |   %15s\n", fname, lname);
+                        System.out.printf("%15s   |   %5s\n", fname, lname);
 
                         while (result.next()) {
                             fname = String.valueOf(result.getString("fname"));
                             fname = result.getString("fname");
                             lname = result.getString("lname");
 
-                            System.out.printf("%15s   |   %15s\n", fname, lname);
+                            System.out.printf("%15s   |   %5s\n", fname, lname);
                         }
                     }
 
